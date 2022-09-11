@@ -8,19 +8,19 @@ using ProyectoCiclo3.App.Persistencia.AppRepositorios;
 using ProyectoCiclo3.App.Dominio;
 namespace ProyectoCiclo3.App.Frontend.Pages
 {
-    public class ListEncomiendaModel : PageModel
+    public class ListUsuarioModel : PageModel
     {
        
-        private readonly RepositorioEncomiendas repositorioEncomiendas;
-        public IEnumerable<Encomienda> Encomiendas {get;set;}
+        private readonly RepositorioUsuarios repositorioUsuarios;
+        public IEnumerable<Usuario> Usuarios {get;set;}
  
-        public ListEncomiendaModel(RepositorioEncomiendas repositorioEncomiendas)
+        public ListUsuarioModel(RepositorioUsuarios repositorioUsuarios)
         {
-            this.repositorioEncomiendas=repositorioEncomiendas;
+            this.repositorioUsuarios=repositorioUsuarios;
         }
         public void OnGet()
         {
-            Encomiendas=repositorioEncomiendas.GetAll();
+            Usuarios=repositorioUsuarios.GetAll();
         }
     }
 }

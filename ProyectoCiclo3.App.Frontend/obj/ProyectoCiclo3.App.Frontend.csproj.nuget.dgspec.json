@@ -78,9 +78,6 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Javier Alexis\\Desktop\\misionTicC381-master\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\Javier Alexis\\Desktop\\misionTicC381-master\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj"
-              },
               "C:\\Users\\Javier Alexis\\Desktop\\misionTicC381-master\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj": {
                 "projectPath": "C:\\Users\\Javier Alexis\\Desktop\\misionTicC381-master\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj"
               }
