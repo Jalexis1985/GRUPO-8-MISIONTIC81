@@ -37,5 +37,15 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
             }
         return encomienda;
         }
+        public Encomienda Create(Encomienda newEncomienda)
+        {
+           if(encomiendas.Count > 0){
+             newEncomienda.id=encomiendas.Max(r => r.id) +1; 
+            }else{
+               newEncomienda.id = 1; 
+            }
+           encomiendas.Add(newEncomienda);
+           return newEncomienda;
+        }
     }
 }
