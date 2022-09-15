@@ -11,7 +11,7 @@ namespace ProyectoCiclo3.App.Frontend.Pages
 {
     public class FormEncomiendaModel : PageModel
     {
-       private readonly RepositorioEncomiendas repositorioEncomiendas;
+        private readonly RepositorioEncomiendas repositorioEncomiendas;
         [BindProperty]
         public Encomienda Encomienda {get;set;}
  

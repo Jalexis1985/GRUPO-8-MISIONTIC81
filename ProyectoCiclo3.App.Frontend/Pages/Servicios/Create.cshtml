@@ -10,7 +10,7 @@
       <option value="">-</option>
       @foreach (var usuario in Model.Usuarios)
       {
-        <option value="@usuario.id">@usuario.nombre @usuario.apellidos - @usuario.ciudad</option>
+        <option value="@usuario.id">@usuario.nombres @usuario.apellidos - @usuario.ciudad</option>
       }
     </select>
     <label for="destino" class="form-label">Destino:</label>
@@ -18,7 +18,7 @@
       <option value="">-</option>
       @foreach (var usuario in Model.Usuarios)
       {
-        <option value="@usuario.id">@usuario.nombre @usuario.apellidos - @usuario.ciudad</option>
+        <option value="@usuario.id">@usuario.nombres @usuario.apellidos - @usuario.ciudad</option>
       }
     </select>
 
